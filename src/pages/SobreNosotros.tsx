@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { leaf, Package, User } from "lucide-react";
+import { Leaf, Package, User } from "lucide-react";
 
 const SobreNosotros = () => {
   return (
@@ -20,7 +20,7 @@ const SobreNosotros = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <leaf className="w-12 h-12 mx-auto mb-4 text-chocolate-medium" />
+            <Leaf className="w-12 h-12 mx-auto mb-4 text-chocolate-medium" />
             <h3 className="text-xl font-playfair text-chocolate-dark mb-2">Ingredientes Naturales</h3>
             <p className="text-chocolate-medium">100% cacao peruano orgánico y ingredientes naturales seleccionados.</p>
           </div>
